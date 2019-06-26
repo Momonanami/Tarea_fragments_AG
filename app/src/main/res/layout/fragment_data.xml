@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.a19134355_7.tarea_fragments_ag.Fragments.DataFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonSend4"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignStart="@+id/buttonSend2"
+            android:text="Ver" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="141dp"
+            android:text="->AMAZON: \n 30% DE DESCUENTO!" />
+
+        <Button
+            android:id="@+id/buttonSend2"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textView"
+            android:layout_marginEnd="22dp"
+            android:text="Ver" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="289dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="67dp"
+            android:text="-> Ebay: Bienvenido a ebay!!" />
+    </RelativeLayout>
+</FrameLayout>
